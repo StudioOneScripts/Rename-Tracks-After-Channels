@@ -35,16 +35,12 @@ function userFunction()
 	}
 
 	// ---------------------------------------
-
-	 this.paramChanged = function (param)
-    { 
-		  
-	}
 }
 
 function createInstance()
 {
 	return new userFunction();
 }
+
 
 
