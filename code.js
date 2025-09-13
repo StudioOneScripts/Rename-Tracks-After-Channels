@@ -25,7 +25,7 @@ function userFunction()
 
 			if(channel && channel.channelType == "MusicTrack")
 			{ 
-				var name = channel.findParameter("instrumentOutput").string
+				var name = channel.label;
 
 				if (name)
 					functions.renameEvent(track, name);
@@ -41,6 +41,7 @@ function createInstance()
 {
 	return new userFunction();
 }
+
 
 
 
