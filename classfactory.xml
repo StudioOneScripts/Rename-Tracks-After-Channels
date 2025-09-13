@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ClassFactory>
+	<ScriptClass
+		classID="{B0FC7BC5-F217-F1EC-22B2-E39135E70259}"
+		category="EditTask"
+		subCategory="TrackEdit"
+		name="Rename Tracks After Channels"
+		sourceFile="code.js"
+		functionName="createInstance">
+		<Attribute id="commandCategory" value="External"/>
+		<Attribute id="menuPriority" value="0"/>
+		<Attribute id="TrackContextMenu" value="1"/>
+	</ScriptClass>
+</ClassFactory>
+ 
+
