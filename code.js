@@ -45,6 +45,6 @@ function userFunction()
 function createInstance()
 {
 	return new userFunction();
-	
 }
+
 
